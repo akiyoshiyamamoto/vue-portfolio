@@ -16,6 +16,9 @@
         </v-btn>
       </v-col>
     </v-row>
+    <v-col class="text-center grey--text text-sm-caption">
+      {{ new Date().getFullYear() }} - <strong>yaak</strong>
+    </v-col>
   </v-container>
 </template>
 
